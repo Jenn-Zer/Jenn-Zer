@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=New+Amsterdam&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=New+Amsterdam&family=Rowdies:wght@300;400;700&family=Sora:wght@100..800&display=swap');
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #F26389; }
+.My-Color-Theme-2-hex { color: #3F83BF; }
+.My-Color-Theme-3-hex { color: #B3E0F2; }
+.My-Color-Theme-4-hex { color: #F2AE2E; }
+.My-Color-Theme-5-hex { color: #F2F2F2; }
+
+
+
+body{
+    font-family: "Sora", sans-serif; 
+    padding-top: 120px; 
+}
+
+a{
+    text-decoration:none; }
+
+.name1{
+    font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  color: #F2AE2E;
+  font-size: 70px;
+
+}
+header{
+
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color:hsl(0, 0%, 100%); 
+    position: fixed;
+
+}
+
+#logo{
+    height: auto;
+}
+
+#logo2{ width: 150px; }
+
+img{
+    width: 550px;
+}
+
+h1{
+    font-size: 30px;
+    border-color: black;
+    font-family: "Lilita One", sans-serif;
+    color: hsl(208, 50%, 50%) !important;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    border-color: palevioletred;
+    font-family: "Lilita One", sans-serif;
+    color: palevioletred
+}
+
+h3{
+    color: #B3E0F2;
+    font-family: "Sora", sans-serif; 
+
+}
+
+p{
+    font-size: 24px;
+    color: gray;
+}
+
+.main{
+    margin: 10px 0 10px 0;
+    background-color: #F2F2F2;
+}
+
+#nosotros{
+    width: 100%;
+    color: palevioletred;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+}
+
+.center_content{
+    text-align: center;
+
+}
+
+.caja{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+
+.caja img{
+
+}
+
+.caja p{
+    font-size: 24px;
+    font-family: "Sora", sans-serif;
+}
+
+.pie p{
+    font-size: 15px;
+    align-items: center;
+}
+
+.mapa {
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulos{
+    background-color: #B3E0F2;
+    margin: 10px 0 10px 0;
+}
+.rutas{
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    align-content: center;
+    background-color: #fffdfd;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+
+.gris{
+    background-color:  #B3E0F2
+}
+
+.carousel-inner {
+height: 500px; 
+}
+
+.carousel-img {
+height: 100%; 
+object-fit: cover; 
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="index.js"></script> 
+    <title>Punto a Punto Transportes</title>
+</head>
+
+<body>
+
+    <!-- Header section with logo and navigation -->
+    <header class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3 mb-4 border-bottom">
+        <!-- Logo and title -->
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
+        <img id="logo" class="img-fluid" src="./Imagen4.jpg" alt="Logo empresa" style="width: 40px; height: auto; margin-right: 10px;">
+        <span class="fs-4">Punto a Punto</span>
+        </a>
+    
+        <!-- Navigation links -->
+        <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active" onclick="setActive(this)" id="nav-home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#nosotros" class="nav-link" onclick="setActive(this)" id="nav-nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a href="#beneficios" class="nav-link" onclick="setActive(this)" id="nav-beneficios">Beneficios</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contactanos" class="nav-link" onclick="setActive(this)" id="nav-contactanos">Contactanos</a>
+            </li>
+            <li class="nav-item">
+                <a href="./rutas.html" class="nav-link" onclick="setActive(this)" id="nav-rutas">Nuestras Rutas</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    
+    <div class="container"> 
+        <div class="row justify-content-center">
+            <img id="logo" class="img-fluid col-md-3 col-2" src="./Imagen4.jpg" alt="Logo empresa" style="height: auto;"> 
+            <h1 class="name1 col-md-3 col-4">Punto a Punto</h1>
+        </div>
+    </div>
+    
+    <div class="container">
+
+        
+        <div id="nosotros" class="row">
+                <h2 class="center_content">Nosotros</h2>
+                
+                <p class="center_content">Ofrecemos un servicio de transporte privado para estudiantes que garantiza la comodidad y seguridad de nuestros clientes.
+                </p>
+                
+                <div class="main row justify-content-center">
+                    <h2 class="col-12 center_content"> ¿Porque elegirnos a nosotros? </h2>
+                    <br>
+                    <p> Contratar un servicio de transporte privado para estudiantes es mejor en términos de tráfico e inseguridad del transporte público porque permite evitar los problemas asociados con la congestión vehicular y la exposición a riesgos. 
+                        <br> Mientras que el transporte público a menudo sigue rutas fijas que pueden estar abarrotadas y sufrir retrasos debido al tráfico, un servicio privado puede elegir rutas alternativas y adaptarse a las condiciones del tráfico en tiempo real, garantizando así un viaje más rápido y eficiente. 
+                        <br> Además, el transporte público a veces puede ser inseguro, especialmente en áreas con altos índices de delincuencia, exponiendo a los estudiantes a situaciones de riesgo. 
+                        <br> En contraste, el transporte privado ofrece un ambiente controlado y monitoreado, con conductores capacitados que priorizan la seguridad de los pasajeros, lo cual reduce significativamente los riesgos de inseguridad.</p>
+                
+                    <iframe height="300px" src="https://www.youtube.com/embed/5oqJSsrH6Dk?si=qdxL9ttjP-RPPRZb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>  
+                    
+                <div>      
+                </div>
+
+        </div>
+          
+        <div id="beneficios" class="row main">
+     
+                <div class="col-12 col-md-4">
+                    <div class="caja">
+                        <h1>Comodidad y Seguridad del Servicio </h1> 
+                        <p>Nos aseguramos de que nuestros autobuses estén en excelentes condiciones, ofreciendo un viaje cómodo y seguro. Además, nuestros conductores están capacitados para brindar un excelente servicio al cliente.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="caja">
+                        <h1>Rutas y Paradas</h1> 
+                        <p>Contamos con rutas específicas para cada escuela o empresa en el área metropolitana, lo que garantiza un transporte rápido y eficiente. Además, nuestras paradas están ubicadas en lugares estratégicos, para que nuestros clientes puedan llegar a su destino final sin problemas.</p>
+                    </div>
+                </div>
+                    <div class="col-12 col-md-4">
+                    <div class="caja">
+                        <h1>Punto por Punto App [Próximamente]</h1> 
+                        <p>Con nuestra App, los usuarios pueden rastrear su autobús en tiempo real, conocer las paradas y la distancia, lo que les brinda la tranquilidad de saber que llegarán a tiempo a sus destinos. La App también permite realizar pagos y adquirir los pases de abordar para garantizar un asiento en el autobús.</p>
+                    </div>
+                </div>
+                
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <img src="https://jalisco.gob.mx/sites/default/files/photo_2023-08-08_10-41-47.jpg" class="d-block w-100 carousel-img" alt="comodo">
+                    <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Grandes Beneficios</h1>
+                    </div>
+                    </div>
+                </div>
+            
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <img src="https://movilidad.tec.mx/sites/g/files/vgjovo1401/files/chofer-alumnos-autobus-extreso-tec-de-monterrey.jpg" class="d-block w-100 carousel-img" alt="paradas">
+                    <div class="container">
+                    <div class="carousel-caption">
+                        <h1>La mejor solucion.</h1>
+                    </div>
+                    </div>
+                </div>
+            
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <img src="https://img.europapress.es/fotoweb/fotonoticia_20160509085932-906009_1200.jpg" class="d-block w-100 carousel-img" alt="app">
+                    <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>La mejor logistica.</h1>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="contactanos" class="row">    
+            <p class="gris mb-5 mt-5 center_content">Contactanos</p>
+            <div class="mapa row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <h3 class="center_content" >Nuestras Oficinas</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4645534179317!2d-100.2292823385203!3d25.778515966961987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662ed0dfcf952bd%3A0xefba3f0a18513ae1!2sArbado%20Monarca%20Sector%20Condesa!5e0!3m2!1ses-419!2smx!4v1725136435373!5m2!1ses-419!2smx" 
+                        style="border:0; width: 100%; height: 100%;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <a  href="https://wa.me/528119934283?text=Hola%20me%20gustaría%20obtener%20más%20información" class="whatsapp-button">
+                Contacto para mas información
+            </a>
+        </div>
+    </div>
+
+
+        
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
